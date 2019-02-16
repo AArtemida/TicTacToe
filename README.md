@@ -1,3 +1,41 @@
+# 井字棋
+> react官网上的demo
+
+### 安装
+用脚手架方便快捷，省去了自己安装一大堆东西的艰辛过程 = =
+``` bash
+npm install -g create-react-app
+```
+对比下不用脚手架自己撸项目：
+
+新建项目：
+``` bash 
+npm init
+```
+安装可能用到的依赖：
+``` bash
+npm install --save react react-dom redux react-redux redux-logger redux-thunk react-router react-router-redux@next history styled-components isomorphic-fetch jroll jroll-pulldown jroll-infinite echarts babel-polyfill
+npm install --save-dev webpack webpack-dev-server webpack-merge clean-webpack-plugin babel-loader babel-core babel-preset-env babel-preset-react css-loader style-loader file-loader url-loader html-webpack-plugin uglifyjs-webpack-plugin
+```
+
+### 创建
+``` bash
+create-react-app my-app
+```
+
+### 运行
+``` bash
+cd my-app
+npm run start
+```
+
+## 页面
+![image](img/1.png)
+![image](img/2.png)
+![image](img/3.png)
+![image](img/4.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
