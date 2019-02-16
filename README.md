@@ -1,5 +1,5 @@
 # 井字棋
-> react官网上的demo
+> react官网上的demo,然后完善了一下功能
 
 ### 安装
 用脚手架方便快捷，省去了自己安装一大堆东西的艰辛过程 = =
@@ -31,8 +31,11 @@ npm run start
 
 ## 页面
 ![image](img/1.png)
+
 ![image](img/2.png)
+
 ![image](img/3.png)
+
 ![image](img/4.png)
 
 
