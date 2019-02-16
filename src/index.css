@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 2px solid #fff;
+  float: left;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+  background:#8BC9F5;
+  border-radius:3px;
+  /*text-stroke: 1.0px #fff;*/
+  text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+}
+.square_x{color:#0489F0;}
+.square_o{color:#FF8511;}
+.square_win{background:#66D87A;}
+.square_empty:hover{
+  background:#5AAFED;
+}
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+  white-space: nowrap;
+  max-width: 80%;
+  overflow: hidden;
+}
+.game-info ol li{margin-bottom:6px;}
+.game-info ol>li>a{
+  cursor:pointer;
+}
+.game-info ol>li>a:hover{
+  color:#0489F0;
+}
+.game-info ol>li.now_li{
+  color:#0489F0;
+  font-weight:bold;
+}
+.status{
+  font-size: 16px;
+  font-weight: bold;
+  color: #f08f1e;
+}
+.game-content{position:relative;height: 148px;}
+.tooltip-box{
+  position:absolute;
+  background:rgba(0,0,0,.5);
+  top:0;
+  width:100%;
+  height:100%;
+  font-size:12px;
+}
+.tooltip{
+  background:#54a4e6;
+  border:1px solid #fff;
+  margin:0 auto;
+  margin-top:10%;
+  width:85%;
+  border-radius: 3px;
+  color:#fff;
+}
+.tooltip button{
+  border-radius: 2px;
+  background: linear-gradient(0deg, #106d12 0%, #c8f5b3 100%);
+  color: #fff;
+  border: 0;
+  box-shadow: 5px 5px 5px #428ecc;
+  padding: 2px 0px;
+  cursor:pointer;
+  font-size:12px;
+  margin-left:5px;
+  width: 54px;
+}
+.buttonlist{
+  white-space: nowrap;
+  text-align: center;
+  margin: 3px 0 10px 0;
+}
+.buttonlist button:first-child{margin-left:0px;}
+.tip{padding:2px 5px;word-break: break-all;margin: 10px 0 0 0;}
+.buttonlist button.contiute{
+  background: linear-gradient(0deg, #0947f9 0%, #36d9ff 100%);
+}
+.buttonlist button:hover{
+  color:#fec10e;
+  box-shadow:5px 5px 5px #4c7e99;
+}
