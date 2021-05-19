@@ -31,9 +31,9 @@ npm run start
 
 ## 页面
 ### 开始几步
-![image](img/1.png)
+![image](img/start.png)
 ### 胜利高亮及提升
-![image](img/2.png)
+![image](img/success.png)
 ### 平局提示
 ![image](img/4.png)
 
